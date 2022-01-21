@@ -1,0 +1,406 @@
+.filter-section {
+  width: 100%;
+  max-width: 1170px;
+}
+
+.filter-section .nav-link {
+  background-color: rgb(86, 54, 44);
+  font-size: 13px;
+  font-family: latoregular;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 13px 23px;
+  border-radius: 0px;
+  margin-right: 1px;
+}
+
+.filter-section .nav-link.active {
+  background: #ecac4a;
+}
+
+.filter-section .nav-pills {
+  border-bottom: 2px solid #6e4b3f;
+  margin-bottom: 30px;
+}
+
+.filter_taxi label {
+  font-size: 14px !important;
+  font-family: latoregular;
+  line-height: 1.2;
+  font-weight: 600 !important;
+  padding-bottom: 3px;
+  text-align: left;
+}
+.custom-checkbox label {
+  margin-left: 10px !important;
+}
+.filter_taxi .form-control {
+  border-radius: 0px;
+  border: 0px;
+  background: #ffff;
+  height: 40px;
+  font-size: 14px;
+  color: #373737 !important;
+  border: 1px solid #ccc;
+  line-height: 1.2;
+  padding-right: 7px !important;
+}
+.filter_taxi .form-control::placeholder {
+  color: rgba(208, 184, 176, 0.8);
+}
+.search_car {
+  background-color: #009ddc !important;
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  font-family: latoregular;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 6px;
+  border: 1px solid transparent;
+  border: 0px;
+}
+
+.search_car svg {
+  margin-right: 5px;
+  width: 20px;
+}
+.custom-control-label::before {
+  width: 20px;
+  height: 20px;
+  background: #56362b;
+  border: 0px;
+  top: 0px;
+  left: auto;
+}
+.custom-control-label::after {
+  width: 20px;
+  left: auto;
+  height: 20px;
+  top: 0px;
+  /* background-color: #ecac4a; */
+}
+
+.wpcf7-mail-sent-ng {
+  font-size: 12px !important;
+  background: #f9a7a7;
+  color: #fff !important;
+  padding: 5px 10px;
+}
+
+span.wpcf7-not-valid-tip {
+  font-size: 12px !important;
+  background: rgba(220, 53, 69, 0.9);
+  color: #fff !important;
+  padding: 5px 10px;
+  border-radius: 0px;
+}
+.wpcf7-not-valid {
+  border: 1px solid rgba(220, 53, 69, 0.9) !important;
+}
+div.wpcf7-validation-errors {
+  border: 2px solid #f7e700;
+  font-size: 12px;
+  margin: 0px !important;
+}
+
+/* qucik-inquiry-form */
+.qucik-inquiry-form {
+  border-radius: 5px;
+  background-color: rgb(247, 247, 247);
+  padding: 20px 24px;
+}
+.qucik-inquiry-form .form-control {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+  height: 44px;
+  font-size: 14px;
+  font-family: latoregular;
+  color: rgb(129, 113, 107);
+  line-height: 1.714;
+  padding: 0px 15px;
+}
+.qucik-inquiry-form textarea {
+  min-height: 84px;
+  resize: none;
+}
+.qucik-inquiry-form .form-group {
+  margin-bottom: 15px;
+}
+.qucik-inquiry-form .submit_but {
+  width: max-content;
+  padding: 5px 15px;
+}
+.qucik-inquiry-form p {
+  margin: 0px;
+}
+
+.invalid-tooltip {
+  font-size: 12px !important;
+  color: #fff !important;
+  padding: 5px 10px;
+  border-radius: 0px;
+  width: 100%;
+  position: relative;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none;
+}
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: none;
+}
+.comment-respond .error {
+  font-size: 12px !important;
+  background: rgba(220, 53, 69, 0.9);
+  padding: 5px 10px;
+  border-radius: 0px;
+  color: #fff;
+}
+.comment-respond input {
+  background: #fff !important;
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid #ebebeb;
+  border-radius: 0px;
+  padding: 11px 15px;
+  margin-bottom: 2px;
+  color: #495057 !important;
+  height: 45px;
+  letter-spacing: 0.2px;
+}
+.comment-respond textarea {
+  background: #fff !important;
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid #ebebeb;
+  border-radius: 0px;
+  padding: 11px 15px;
+  margin-bottom: 2px;
+  letter-spacing: 0.2px;
+  color: #495057 !important;
+}
+.form-submit input {
+  border-radius: 0px;
+  width: 172px;
+  padding: 11.5px 0px;
+  display: block;
+  font-weight: 900;
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255) !important;
+  text-transform: uppercase;
+  line-height: 1.2;
+  background: #ecac4a !important;
+  border-color: #ecac4a;
+}
+.comment-form-cookies-consent {
+  display: none !important;
+}
+.select2-container {
+  height: 40px !important;
+  line-height: 1.2;
+}
+.select2-container .select2-selection--single {
+  width: 100%;
+  height: 40px !important;
+  line-height: 1.2;
+  max-width: 1170px;
+}
+.select2-container--default .select2-selection--single {
+  border: 0px !important;
+  background: transparent !important;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  border-radius: 0px;
+  border: 0px;
+  background: #fff;
+  border: 1px solid #ccc !important;
+  height: 40px;
+  font-size: 14px;
+  color: #373737 !important;
+  line-height: 40px !important;
+  padding-right: 7px !important;
+}
+input[type="search"]:focus {
+  outline: none !important;
+  outline-offset: -4px;
+}
+.filter-section select {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  height: 40px !important;
+}
+.select2-results__option {
+  font-size: 14px;
+}
+.select2-results__option[aria-selected] {
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0px;
+  padding: 3px 10px;
+}
+.select2-dropdown {
+  border-radius: 0px;
+  border: 0px;
+  box-shadow: 0px 3px 16px 0px rgba(35, 47, 62, 0.15);
+  border: 0px !important;
+  font-size: 14px;
+  color: #373737;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-right: 7px !important;
+  text-transform: capitalize !important;
+  z-index: 9999999999 !important;
+}
+
+.qucik-inquiry-form textarea {
+  padding: 11px 15px !important;
+}
+.tempoform .form-group label {
+  display: none;
+}
+.extra_fare_without_price b {
+  font-size: 18px;
+}
+.formdiv {
+  top: 0px !important;
+  margin-top: -212px;
+  z-index: 99 !important;
+  position: relative !important;
+}
+.home-enq-form {
+  background: #fff !important;
+}
+.filter-section .nav-link {
+  background-color: #ececec !important;
+}
+.filter-section .nav-link.active {
+  background-color: #009ddc !important;
+  color: #fff !important;
+}
+.fade {
+  transition: opacity 0.15s linear !important;
+  opacity: 1;
+}
+.home-enq-form {
+  box-shadow: 0px 3px 16px 0px rgba(35, 47, 62, 0.15);
+  border: 0px !important;
+}
+
+.piching_datehbtn {
+  margin-top: 22px;
+}
+.position-relative {
+  position: relative;
+}
+.input-group span {
+  display: block;
+  width: 100% !important;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  right: 15px !important;
+  left: auto !important;
+}
+
+.booknow {
+  background-color: #009ddc !important;
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  font-family: latoregular;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 6px;
+  border: 1px solid transparent;
+  border: 0px;
+}
+
+.send_contact .form-control {
+  border-radius: 0px;
+  border: 0px;
+  background: #fff;
+  border: 1px solid #ccc !important;
+  height: 40px;
+  font-size: 14px;
+  color: #373737 !important;
+  line-height: 40px !important;
+  padding-right: 7px !important;
+}
+.send_contact textarea {
+  height: 110px !important;
+  resize: none;
+}
+.modal-title img {
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+#myModal .modal-title {
+  font-size: 20px;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+#myModal .modal-header {
+  padding: 15px;
+}
+#myModal .modal-header .close {
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto;
+  font-size: 20px;
+  transform: rotate(45deg);
+}
+.home-enq-form .nav li a,
+.SearchForm .nav li a {
+  margin: 0px !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+}
+.modal-open .modal {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media (max-width: 768px) {
+  .home-enq-form form div {
+    margin: 0px !important;
+  }
+  .home-enq-form form div {
+    margin-bottom: 15px !important;
+  }
+  .home-enq-form form div button {
+    margin: 0px !important;
+  }
+  .filter_taxi {
+    box-shadow: 0px 3px 16px 0px rgba(35, 47, 62, 0.15);
+    padding: 20px 10px;
+  }
+  button#responsive-menu-button {
+    z-index: 9999 !important;
+  }
+}
